@@ -86,3 +86,23 @@ label {
     font-family: 'Lucida Sans';
     font-size: 22px;
 }
+
+@media screen and (max-width:500px) {
+    .container img{
+        border-radius: 15px;
+         height:20vh;
+         width:100px;
+    }
+    .container {
+        font-size: 40px;
+        color:brown;
+        text-shadow: rgb(107, 105, 105)1px 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        text-align: center;
+        background: linear-gradient(30deg,rgb(207, 240, 56),rgb(240, 153, 53));
+    }
+    
+}
